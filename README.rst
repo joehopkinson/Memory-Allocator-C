@@ -2,6 +2,8 @@
 Memory Allocator in C
 =======================
 
+Framework was provided by the Operating Systems course at VU Amsterdam.
+
 Heap allocator that requests chunks of memory ``malloc`` or ``calloc`` from the operating
 system and places several objects inside these. Using the ``free`` call
 these memory objects can be freed up again, allowing for reuse by future
